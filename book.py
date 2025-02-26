@@ -7,7 +7,7 @@ app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  
 
 
-MONGO_URI = "mongodb+srv://SXran:<password>@book-api.uxs7s.mongodb.net/?retryWrites=true&w=majority&appName=Book-API"
+MONGO_URI = "mongodb+srv://SXran:<password>A@book-api.uxs7s.mongodb.net/?retryWrites=true&w=majority&appName=Book-API"
 client = MongoClient(MONGO_URI)
 
 
